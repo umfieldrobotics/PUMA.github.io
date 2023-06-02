@@ -8,20 +8,32 @@ redirect_from:
   - /about.html
 ---
 
-In the University of Michigan Field Robotics Group ([FRoG](https://fieldrobotics.engin.umich.edu/)), one of our research directions is the perceptual uncertainty fo marine autonomy. One of the highlighted projects is the Uncertainty-Aware Acoustic Localization and Mapping for Underwater Robots.
+In the University of Michigan Field Robotics Group ([FRoG](https://fieldrobotics.engin.umich.edu/)), one of our research directions is the perceptual uncertainty fo marine autonomy. Selected projects are listed below.
 
-# :star:Uncertainty-Aware Acoustic Localization and Mapping for Underwater Robots
+<!-- buttons: robot, field work, paper, about -->
+<!-- we can talk about methods and results in about.md, and set up other .md files for  robot, field work, paper-->
 
-In this project, we handle the 
+# ⭐ Uncertainty-Aware Acoustic Localization and Mapping for Underwater Robots
+
+For underwater vehicles, robotic applications have the added difficulty of operating in highly unstructured and dynamic environments. 
+    Environmental effects impact not only the dynamics and controls of the robot but also the perception and sensing modalities. 
+    Acoustic sensors, which inherently use mechanically vibrated signals for measuring range or velocity, are particularly prone to the effects that such dynamic environments induce. 
+    This paper presents an uncertainty-aware localization and mapping framework that accounts for induced disturbances in acoustic sensing modalities for underwater robots operating near the surface in dynamic wave conditions. 
+    For the state estimation task, the uncertainty is accounted for as the added noise caused by the environmental disturbance. 
+    The mapping method uses an adaptive kernel-based method to propagate measurement and pose uncertainty into an occupancy map. 
+    Experiments are carried out in a wave tank environment to perform qualitative and quantitative evaluations of the proposed method.
 
 <!-- TODO: add one or two videos might be cool -->
 
-## Overview
+## Method Overview
+
 
 ## Experiment
 <!-- TODO: add one or two videos for experiment -->
 
 ## Results
+<!-- can put full table from paper -->
+<!-- add the qualitative result in paper -->
 
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
