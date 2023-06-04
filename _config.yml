@@ -86,7 +86,8 @@ author:
   # location         : "Location"
   # employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  website          : "https://fieldrobotics.engin.umich.edu/"
+  uri              : "https://fieldrobotics.engin.umich.edu/"
+  # website          : "https://fieldrobotics.engin.umich.edu/"
   googlescholar    : "https://scholar.google.com/citations?user=DsN9c-YAAAAJ&hl=en&oi=ao"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
@@ -179,6 +180,9 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
+  experiment:
+    output: true
+    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
@@ -210,6 +214,15 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _experiment
+  - scope:
+      path: ""
+      type: experiment
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _teaching
   - scope:
       path: ""

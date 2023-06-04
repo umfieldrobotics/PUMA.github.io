@@ -15,6 +15,11 @@ In the University of Michigan Field Robotics Group ([FRoG](https://fieldrobotics
 
 # ⭐ Uncertainty-Aware Acoustic Localization and Mapping for Underwater Robots
 
+<!-- add picture -->
+| ![In this work we ](../images/intro.png "a title") |
+|:--:|
+| <b>An overview of the robot operating in a wave basin with ground truth 3D scan shown in black.|
+
 For underwater vehicles, robotic applications have the added difficulty of operating in highly unstructured and dynamic environments. 
     Environmental effects impact not only the dynamics and controls of the robot but also the perception and sensing modalities. 
     Acoustic sensors, which inherently use mechanically vibrated signals for measuring range or velocity, are particularly prone to the effects that such dynamic environments induce. 
@@ -26,9 +31,15 @@ For underwater vehicles, robotic applications have the added difficulty of opera
 <!-- TODO: add one or two videos might be cool -->
 
 ## Method Overview
+1️⃣: We characterize the uncertainty induced on acoustic sensors by external disturbances i.e. waves.
+
+2️⃣: We integrate uncertainty induced from external disturbances into a localization and mapping framework for marine robot platforms.
+
+3️⃣: We provide an extension of previous work on continuous 3D mapping to the underwater domain while contributing a novel, adaptive sparse kernel design for 3D mapping to enable uncertainty propagation from uncertain pose estimates into a 3D occupancy map.
 
 
 ## Experiment
+
 <!-- TODO: add one or two videos for experiment -->
 
 ## Results
