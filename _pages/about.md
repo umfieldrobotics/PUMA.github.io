@@ -19,30 +19,52 @@ In the University of Michigan Field Robotics Group ([FRoG](https://fieldrobotics
   <img src="../images/intro.png" width="100%" />
 </p>
 
-
-For underwater vehicles, robotic applications have the added difficulty of operating in highly unstructured and dynamic environments. 
-    Environmental effects impact not only the dynamics and controls of the robot but also the perception and sensing modalities. 
-    Acoustic sensors, which inherently use mechanically vibrated signals for measuring range or velocity, are particularly prone to the effects that such dynamic environments induce. 
-    This paper presents an uncertainty-aware localization and mapping framework that accounts for induced disturbances in acoustic sensing modalities for underwater robots operating near the surface in dynamic wave conditions. 
-    For the state estimation task, the uncertainty is accounted for as the added noise caused by the environmental disturbance. 
-    The mapping method uses an adaptive kernel-based method to propagate measurement and pose uncertainty into an occupancy map. 
+For underwater vehicles, robotic applications have the added difficulty of operating in highly unstructured and dynamic environments.
+    Environmental effects impact not only the dynamics and controls of the robot but also the perception and sensing modalities.
+    Acoustic sensors, which inherently use mechanically vibrated signals for measuring range or velocity, are particularly prone to the effects that such dynamic environments induce.
+    This paper presents an uncertainty-aware localization and mapping framework that accounts for induced disturbances in acoustic sensing modalities for underwater robots operating near the surface in dynamic wave conditions.
+    For the state estimation task, the uncertainty is accounted for as the added noise caused by the environmental disturbance.
+    The mapping method uses an adaptive kernel-based method to propagate measurement and pose uncertainty into an occupancy map.
     Experiments are carried out in a wave tank environment to perform qualitative and quantitative evaluations of the proposed method.
 
 <!-- TODO: add one or two videos might be cool -->
 
 ## Method Overview
+
 ✅: We characterize the uncertainty induced on acoustic sensors by external disturbances i.e. waves.
 
 ✅: We integrate uncertainty induced from external disturbances into a localization and mapping framework for marine robot platforms.
 
 ✅: We provide an extension of previous work on continuous 3D mapping to the underwater domain while contributing a novel, adaptive sparse kernel design for 3D mapping to enable uncertainty propagation from uncertain pose estimates into a 3D occupancy map.
 
-
 ## Experiment
 
-<!-- TODO: add one or two videos for experiment -->
+It is essential to characterize the sensor noise associated with the robot operating under different environmental conditions.
+Experiments were run in the Marine Hydrodynamics Lab (MHL) at the University of Michigan to perform this characterization.
+We specifically conducted experiments to quantify the effect of different wave conditions on the sensor noise and biases.
+To properly evaluate the proposed method, we rigidly mounted the robot to a carriage and moved the carriage in wave conditions.
+The carriage positions are recorded and used to serve as ground truth reference for robot trajectory.
+Time synchronization across different systems was conducted to ensure proper evaluation with the ground truth data.
+
+To measure the external disturbances of waves on the robot, we recorded the wave characteristics from a wave probe. The measurements are used to characterize the induced additive noise from external disturbances. Fig. \ref{fig:noise} shows a visualization of the effect the waves induce on the onboard acoustic sensors.
+
+The obtained empirical mean and variance of the measurements are incorporated into the measurement models of the filtering formulation.
+
+<figure class="video_container">
+    <iframe src="https://youtube.com/shorts/wJtMK4djHKc" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+<figure class="video_container">
+    <iframe src="https://youtube.com/shorts/Afpjq-A65es" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 ## Results
+
+|      Method     | x (m) | y (m) | z (m) | roll (rad) | pitch (rad) | yaw (rad) | $v_x$ (m/s) | $v_y$ (m/s) | $v_z$ (m/s) |
+|:---------------:|:-----:|:-----:|:-----:|------------|-------------|-----------|-------------|-------------|-------------|
+| Baseline UKF    | 0.862 | 0.297 | 0.004 | 0.003      | 0.003       | 0.015     | 0.023       | 0.007       | 0.003       |
+| Proposed Method | 0.869 | 0.012 | 0.004 | 0.003      | 0.003       | 0.003     | 0.020       | 0.005       | 0.003       |
+
 <!-- can put full table from paper -->
 <!-- add the qualitative result in paper -->
 
