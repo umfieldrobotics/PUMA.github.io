@@ -12,12 +12,11 @@ In the University of Michigan Field Robotics Group ([FRoG](https://fieldrobotics
 
 <!-- buttons: robot, field work, paper, about -->
 <!-- we can talk about methods and results in about.md, and set up other .md files for  robot, field work, paper-->
-
 # ⭐ Uncertainty-Aware Acoustic Localization and Mapping for Underwater Robots
 
 <b>An overview of the robot operating in a wave basin with ground truth 3D scan shown in black. </b>
 <p float="middle">
-  <img src="../images/intro.png" width="100%" />
+  <img src="https://github.com/umfieldrobotics/PUMA.github.io/blob/master/images/intro.png" width="100%" />
 </p>
 
 
