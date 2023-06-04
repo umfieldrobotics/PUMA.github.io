@@ -31,11 +31,11 @@ For underwater vehicles, robotic applications have the added difficulty of opera
 <!-- TODO: add one or two videos might be cool -->
 
 ## Method Overview
-1️⃣: We characterize the uncertainty induced on acoustic sensors by external disturbances i.e. waves.
+✅: We characterize the uncertainty induced on acoustic sensors by external disturbances i.e. waves.
 
-2️⃣: We integrate uncertainty induced from external disturbances into a localization and mapping framework for marine robot platforms.
+✅: We integrate uncertainty induced from external disturbances into a localization and mapping framework for marine robot platforms.
 
-3️⃣: We provide an extension of previous work on continuous 3D mapping to the underwater domain while contributing a novel, adaptive sparse kernel design for 3D mapping to enable uncertainty propagation from uncertain pose estimates into a 3D occupancy map.
+✅: We provide an extension of previous work on continuous 3D mapping to the underwater domain while contributing a novel, adaptive sparse kernel design for 3D mapping to enable uncertainty propagation from uncertain pose estimates into a 3D occupancy map.
 
 
 ## Experiment

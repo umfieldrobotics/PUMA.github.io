@@ -91,7 +91,6 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=DsN9c-YAAAAJ&hl=en&oi=ao"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
   bitbucket        :
   codepen          :
   dribbble         :
@@ -183,6 +182,12 @@ collections:
   experiment:
     output: true
     permalink: /:collection/:path/
+  robot:
+    output: true
+    permalink: /:collection/:path/
+  robot:
+    output: true
+    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
@@ -218,6 +223,15 @@ defaults:
   - scope:
       path: ""
       type: experiment
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _robot
+  - scope:
+      path: ""
+      type: robot
     values:
       layout: single
       author_profile: true
