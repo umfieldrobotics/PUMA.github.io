@@ -15,11 +15,11 @@ author_profile: true
 
 <p float="middle">
 <div>
-    <video autoplay="autoplay" src="./images/20221121_122838.mp4" controls="controls" width="100%" />
+    <video autoplay="autoplay" src="../images/20221121_122838.mp4" controls="controls" width="100%" />
 </div>
 </p>
 
 <p float="left">
-    <video autoplay="autoplay" src="./images/20221121_122838.mp4" controls="controls" width="40%" />
-    <video autoplay="autoplay" src="./images/20221121_122838.mp4" controls="controls" width="40%" />
+    <video autoplay="autoplay" src="../images/20221121_122838.mp4" controls="controls" width="40%" />
+    <video autoplay="autoplay" src="../images/20221121_122838.mp4" controls="controls" width="40%" />
 </p>
