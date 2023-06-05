@@ -20,8 +20,8 @@ We log measurements from the acoustic sensors, and as we know what the target me
 We provide videos from these experiments below.
 
 <p float="left">
-    <video autoplay="autoplay" src="./images/waves_robot.mp4" controls="controls" width="49%"></video>
-    <video autoplay="autoplay" src="./images/waves_in_front.mp4" controls="controls" width="49%"></video>
+    <video autoplay="autoplay" src="../images/waves_robot.mp4" controls="controls" width="49%"></video>
+    <video autoplay="autoplay" src="../images/waves_in_front.mp4" controls="controls" width="49%"></video>
 </p>
 
 In addition to the experiments with the waves, we use the position readings on the wave carriage to track the ground-truth position of the robot during our tests, as the robot is rigidly mounted.
