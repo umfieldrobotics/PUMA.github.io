@@ -59,7 +59,6 @@ The obtained empirical mean and variance of the measurements are incorporated in
 </figure>
 
 ## Results
-
 |      Method     | x (m) | y (m) | z (m) | roll (rad) | pitch (rad) | yaw (rad) | $v_x$ (m/s) | $v_y$ (m/s) | $v_z$ (m/s) |
 |:---------------:|:-----:|:-----:|:-----:|------------|-------------|-----------|-------------|-------------|-------------|
 | Baseline UKF    | 0.862 | 0.297 | 0.004 | 0.003      | 0.003       | 0.015     | 0.023       | 0.007       | 0.003       |
