@@ -5,7 +5,7 @@ permalink: /robot/
 author_profile: true
 ---
 
-# FRoG BlueROV V1
+## FRoG BlueROV V1
 <!-- italicized tex -->
 *Robot Platform for **Uncertainty-Aware Acoustic Localization and Mapping for Underwater Robots***
 
@@ -14,5 +14,3 @@ We integrate the [BlueROV V2](https://bluerobotics.com/store/rov/bluerov2/) with
 <p float="middle">
   <img src="../images/robot_bluerov_v1.svg" width="100%" />
 </p>
-
-
