@@ -16,7 +16,7 @@ In the University of Michigan Field Robotics Group ([FRoG](https://fieldrobotics
 
 <b>An overview of the robot operating in a wave basin with ground truth 3D scan shown in black. </b>
 <p float="middle">
-  <img src="../images/intro.png" width="100%" />
+  <img src="./images/intro.png" width="100%" />
 </p>
 
 For underwater vehicles, robotic applications have the added difficulty of operating in highly unstructured and dynamic environments.
