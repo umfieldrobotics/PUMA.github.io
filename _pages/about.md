@@ -50,6 +50,8 @@ To measure the external disturbances of waves on the robot, we recorded the wave
 
 The obtained empirical mean and variance of the measurements are incorporated into the measurement models of the filtering formulation.
 
+<!-- create two videos side by side -->
+
 <figure class="video_container">
     <iframe src="https://youtube.com/shorts/wJtMK4djHKc" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
@@ -57,6 +59,8 @@ The obtained empirical mean and variance of the measurements are incorporated in
 <figure class="video_container">
     <iframe src="https://youtube.com/shorts/Afpjq-A65es" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
+
+<iframe width="443" height="788" src="https://www.youtube.com/embed/wJtMK4djHKc" title="UM Frog Wave Test - Waves" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Results
 
