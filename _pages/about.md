@@ -80,3 +80,18 @@ We use a standard UKF as a baseline method, to highlight the improvements of our
 We show that our method drastically improves the pose estimate of the robot, significanly reducing teh drift in the estimation.
 
 We additioonally point the improvement on the directly measured variables, primarily $v_x$, $v_y$ and $v_z$. We obtain the ground truth velocity of the robot, again, by using the position of the linear carriage, and differentiate it over time. The improvement on the directly observed variables is a key addition by the uncertainty-aware approach. When there was an impact by the environmental disturbances, the sensors were trusted less. This led to a filtered velocity estimation, that additionally results in a more accurate estimation.
+
+#### Seafloor Mapping Evaluation
+
+To evaluate the seafloor mapping performance, we again use a reference for our method. For this, we use a previously generated, dense 3D model of the bottom of the wave basin.
+
+As we construct a 3D occupancy grid map, we treat the voxelized map as a point cloud, and compare it with the reference pointcloud to evaluate the pointcloud-to-pointcloud distance. We additionally measure the pointcloud density.
+
+As a baseline, we compare the mapping method to a standard 3D counting sensor model, to highlight the improvement of our kernel based approach.
+
+We show the results on the density and the accuracy are greatly improved using our method, leading to a more informative map.
+
+| Method | Pointcloud to Pointcloud Distance (m) | Map Density |
+|:---:|:---:|:---:|
+| Baseline CSM | 0.226 | 2774 |
+| Proposed Method | 0.087 | 3190 |
