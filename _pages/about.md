@@ -53,27 +53,18 @@ To properly evaluate the proposed method, we rigidly mounted the robot to a carr
 The carriage positions are recorded and used to serve as ground truth reference for robot trajectory.
 Time synchronization across different systems was conducted to ensure proper evaluation with the ground truth data.
 
-To measure the external disturbances of waves on the robot, we recorded the wave characteristics from a wave probe. The measurements are used to characterize the induced additive noise from external disturbances. Fig. \ref{fig:noise} shows a visualization of the effect the waves induce on the onboard acoustic sensors.
+To measure the external disturbances of waves on the robot, we recorded the wave characteristics from a wave probe. The measurements are used to characterize the induced additive noise from external disturbances.
 
 The obtained empirical mean and variance of the measurements are incorporated into the measurement models of the filtering formulation.
 
-<!-- create two videos side by side -->
 
-<figure class="video_container">
-    <iframe src="https://youtube.com/shorts/wJtMK4djHKc" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-
-<figure class="video_container">
-    <iframe src="https://youtube.com/shorts/Afpjq-A65es" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-
-<figure class="video_container">
-<iframe width="443" height="788" src="https://www.youtube.com/embed/wJtMK4djHKc" title="UM Frog Wave Test - Waves" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<figure class="video_container" float="center">
+<iframe width="256" height="459" src="https://www.youtube.com/embed/wJtMK4djHKc" title="UM Frog Wave Test - Waves" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </figure>
 
 ### Results
 
-|      Method     | x (m) | y (m) | z (m) | roll (rad) | pitch (rad) | yaw (rad) | $v_x$ (m/s) | $v_y$ (m/s) | $v_z$ (m/s) |
+|      Method     | x (m) | y (m) | z (m) | $\phi$ (rad) | $\theta$ (rad) | $\psi$ (rad) | $v_x$ (m/s) | $v_y$ (m/s) | $v_z$ (m/s) |
 |:---------------:|:-----:|:-----:|:-----:|------------|-------------|-----------|-------------|-------------|-------------|
 | Baseline UKF    | 0.862 | 0.297 | 0.004 | 0.003      | 0.003       | 0.015     | 0.023       | 0.007       | 0.003       |
 | Proposed Method | 0.869 | 0.012 | 0.004 | 0.003      | 0.003       | 0.003     | 0.020       | 0.005       | 0.003       |
@@ -120,4 +111,4 @@ Example: editing a markdown file for a talk
 
 For more info
 ------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. --> -->
+More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
