@@ -12,7 +12,7 @@ In the University of Michigan Field Robotics Group ([FRoG](https://fieldrobotics
 
 <!-- buttons: robot, field work, paper, about -->
 <!-- we can talk about methods and results in about.md, and set up other .md files for  robot, field work, paper-->
-# ⭐ Uncertainty-Aware Acoustic Localization and Mapping for Underwater Robots
+## ⭐ Uncertainty-Aware Acoustic Localization and Mapping for Underwater Robots
 
 <b>An overview of the robot operating in a wave basin with ground truth 3D scan shown in black. </b>
 <p float="middle">
@@ -20,27 +20,30 @@ In the University of Michigan Field Robotics Group ([FRoG](https://fieldrobotics
 </p>
 
 For underwater vehicles, robotic applications have the added difficulty of operating in highly unstructured and dynamic environments.
-    Environmental effects impact not only the dynamics and controls of the robot but also the perception and sensing modalities.
-    Acoustic sensors, which inherently use mechanically vibrated signals for measuring range or velocity, are particularly prone to the effects that such dynamic environments induce.
-    This paper presents an uncertainty-aware localization and mapping framework that accounts for induced disturbances in acoustic sensing modalities for underwater robots operating near the surface in dynamic wave conditions.
-    For the state estimation task, the uncertainty is accounted for as the added noise caused by the environmental disturbance.
-    The mapping method uses an adaptive kernel-based method to propagate measurement and pose uncertainty into an occupancy map.
-    Experiments are carried out in a wave tank environment to perform qualitative and quantitative evaluations of the proposed method.
+Environmental effects impact not only the dynamics and controls of the robot but also the perception and sensing modalities.
+Acoustic sensors, which inherently use mechanically vibrated signals for measuring range or velocity, are particularly prone to the effects that such dynamic environments induce.
+
+This paper presents an uncertainty-aware localization and mapping framework that accounts for induced disturbances in acoustic sensing modalities for underwater robots operating near the surface in dynamic wave conditions.
+For the state estimation task, the uncertainty is accounted for as the added noise caused by the environmental disturbance.
+The mapping method uses an adaptive kernel-based method to propagate measurement and pose uncertainty into an occupancy map.
+Experiments are carried out in a wave tank environment to perform qualitative and quantitative evaluations of the proposed method.
 
 <!-- TODO: add one or two videos might be cool -->
 
-## Method Overview
+### Method Overview
 
 ✅: We characterize the uncertainty induced on acoustic sensors by external disturbances i.e. waves.
 
-✅: We integrate uncertainty induced from external disturbances into a localization and mapping framework for marine robot platforms.
+✅: We integrate the uncertainty induced from external disturbances into a localization and mapping framework for marine robot platforms.
 
 ✅: We provide an extension of previous work on continuous 3D mapping to the underwater domain while contributing a novel, adaptive sparse kernel design for 3D mapping to enable uncertainty propagation from uncertain pose estimates into a 3D occupancy map.
 
-## Experiment
+### Experiment
+
 Experiments were run in the [Marine Hydrodynamics Lab (MHL)](https://mhl.engin.umich.edu/) at the University of Michigan to perform this characterization.
 
 We conducted experiments for:
+
 - Quantifying the effect of different wave conditions on the sensor noise and biases.
 
 It is essential to characterize the sensor noise associated with the robot operating under different environmental conditions.
@@ -68,8 +71,8 @@ The obtained empirical mean and variance of the measurements are incorporated in
 <iframe width="443" height="788" src="https://www.youtube.com/embed/wJtMK4djHKc" title="UM Frog Wave Test - Waves" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </figure>
 
+### Results
 
-## Results
 |      Method     | x (m) | y (m) | z (m) | roll (rad) | pitch (rad) | yaw (rad) | $v_x$ (m/s) | $v_y$ (m/s) | $v_z$ (m/s) |
 |:---------------:|:-----:|:-----:|:-----:|------------|-------------|-----------|-------------|-------------|-------------|
 | Baseline UKF    | 0.862 | 0.297 | 0.004 | 0.003      | 0.003       | 0.015     | 0.023       | 0.007       | 0.003       |
