@@ -29,5 +29,5 @@ In addition to the experiments with the waves, we use the position readings on t
 This gives us the opportunity to then compare our state estimation and mapping methods, as we now have a ground truth trajectory to both qualitatively, and quantitatively evaluate our methods with. We show qualitative results in the figure below, where the ground truth reference trajectory is compared against our baseline method and our proposed method.
 
 <p float="middle">
-  <img src="./images/3d_plot_checkered.png" width="100%" />
+  <img src="../images/3d_plot_checkered.png" width="50%" />
 </p>

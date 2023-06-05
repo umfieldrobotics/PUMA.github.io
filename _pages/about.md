@@ -61,10 +61,9 @@ Time synchronization across different systems was conducted to ensure proper eva
 To measure the external disturbances of waves on the robot, we recorded the wave characteristics from a wave probe. The measurements are used to characterize the induced additive noise from external disturbances.
 
 The obtained empirical mean and variance of the measurements are incorporated into the measurement models of the filtering formulation.
-
-<figure class="video_container" float="center">
+<!-- <figure class="video_container" float="center">
 <iframe width="256" height="459" src="https://www.youtube.com/embed/wJtMK4djHKc" title="UM Frog Wave Test - Waves" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</figure>
+</figure> -->
 
 ### Results
 
@@ -100,3 +99,9 @@ We show the results on the density and the accuracy are greatly improved using o
 |:---:|:---:|:---:|
 | Baseline CSM | 0.226 | 2774 |
 | Proposed Method | 0.087 | 3190 |
+
+We also show the capability of our mapping method to capture details of the seabaed by mapping a rock platform with known dimensions, shown in the figure below.
+
+<p float="middle">
+  <img src="./images/rock_pc.png" width="100%" />
+</p>
