@@ -38,6 +38,10 @@ For underwater vehicles, robotic applications have the added difficulty of opera
 ✅: We provide an extension of previous work on continuous 3D mapping to the underwater domain while contributing a novel, adaptive sparse kernel design for 3D mapping to enable uncertainty propagation from uncertain pose estimates into a 3D occupancy map.
 
 ## Experiment
+Experiments were run in the [Marine Hydrodynamics Lab (MHL)](https://mhl.engin.umich.edu/) at the University of Michigan to perform this characterization.
+
+We conducted experiments for:
+- Quantifying the effect of different wave conditions on the sensor noise and biases.
 
 It is essential to characterize the sensor noise associated with the robot operating under different environmental conditions.
 Experiments were run in the Marine Hydrodynamics Lab (MHL) at the University of Michigan to perform this characterization.
@@ -60,7 +64,10 @@ The obtained empirical mean and variance of the measurements are incorporated in
     <iframe src="https://youtube.com/shorts/Afpjq-A65es" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
+<figure class="video_container">
 <iframe width="443" height="788" src="https://www.youtube.com/embed/wJtMK4djHKc" title="UM Frog Wave Test - Waves" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</figure>
+
 
 ## Results
 

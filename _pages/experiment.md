@@ -15,7 +15,7 @@ author_profile: true
 
 <p float="middle">
 <div>
-    <video autoplay="autoplay" src="./images/20221121_122838.mp4" controls="controls" width="50%" />
+    <video autoplay="autoplay" src="./images/20221121_122838.mp4" controls="controls" width="100%" />
 </div>
 </p>
 
