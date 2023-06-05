@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "PUMA"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "U-M Field Robotics Group"
 description              : &description "personal description"
 url                      : "https://umfieldrobotics.github.io/PUMA.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
