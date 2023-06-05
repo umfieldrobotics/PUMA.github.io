@@ -13,6 +13,12 @@ author_profile: true
     <iframe src="https://youtube.com/shorts/Afpjq-A65es" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
+<p float="middle">
+<div>
+    <video autoplay="autoplay" src="./images/20221121_122838.mp4" controls="controls" width="50%" />
+</div>
+</p>
+
 <p float="left">
     <video autoplay="autoplay" src="./images/20221121_122838.mp4" controls="controls" width="40%" />
     <video autoplay="autoplay" src="./images/20221121_122838.mp4" controls="controls" width="40%" />
